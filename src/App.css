@@ -35,7 +35,40 @@ body,
   display: flex;
   flex-direction: column;
   gap: 200px;
+  transition: all 0.3s;
 }
+/* .right h1 {
+  animation-name: header;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes header {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.right p {
+  animation-name: paragraph;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes paragraph {
+  0% {
+    transform: translateX(0px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+  }
+} */
 .right h1 {
   font-weight: bold;
   font-size: 70px;

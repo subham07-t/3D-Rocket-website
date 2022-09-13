@@ -21,7 +21,7 @@ export default function App() {
         </div>
         <div className="container-body">
           <div className="right">
-            <div>
+            <div className="right-top">
               <h1>Dattebayo!Keep Going</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Est,
